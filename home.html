@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1, shrink-to-fit = no"/>
+    <meta http-equiv="x-ua-compatible" content="ie = edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Trade+Winds&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="jquery.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/home.css" />
+    <title>Home Automation</title>
+  </head>
+
+  <body>
+        <div class="row">
+            <div class="col-2 ">
+              
+
+                <div class="container vertical-nav bg-dark navbarSupportedContent1" id="sidebar">
+                    <div class="py-3 px-3 mb-4 bg-dark">      
+                      <!-- <div class="media-body">
+                        <h3 style="display:inline;" class="font-weight-white text-muted mb-0 mt-4">Group 9</h3>
+                      </div>       -->
+                    </div>
+                    
+                    <img src="images/logo.jpeg" alt="logo" width="18%"><p style="display: inline;" class="text-white font-weight-bold text-uppercase px-3 small pb-4 mb-0">Group 9</p>
+                  
+                    <ul class="nav flex-column bg-dark mb-0 mt-4">
+                      <li class="nav-item">
+                        <a href="#home-section" class="nav-link text-light font-italic bg-dark">
+                          Home
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#requirements" class="nav-link text-light font-italic">
+                          Requirements
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#description" class="nav-link text-light font-italic">
+                          Description
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#flow" class="nav-link text-light font-italic">
+                          Basic Flow
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#program" class="nav-link text-light font-italic">
+                          Program
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#prototype" class="nav-link text-light font-italic">
+                          Mobile App
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#circuit" class="nav-link text-light font-italic">
+                          Circuit
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+            </div>
+
+
+            <!--main body on right side-->
+            <div class="container-fluid">
+
+            
+            <div class="row">
+
+            <div class="col-12 col-md-8 offset-md-4 col-xl-10 offset-xl-2">
+                
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="4000" style="filter:opacity(1);">
+                      <div class="carousel-inner carousel-main">
+                        <div class="carousel-item active">
+                          <!-- <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                            <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Persistence can change failure into extraordinary achievement.</em></h1>
+                          </div> -->
+                          <img class="d-block w-100 img-fluid" src="images/slider2.jpg" alt="First slide" >
+                          
+                        </div>
+                        <div class="carousel-item">
+                          <!-- <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                            <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Set your goals high, and don't stop till you get there.</em></h1>
+                          </div> -->
+                          <img class="d-block w-100 img-fluid " src="images/slider3.jpg" alt="Second slide">
+                          
+                        </div> 
+                        <div class="carousel-item">
+                          <!-- <div class="carousel-caption my-carousel-caption d-none d-md-block">
+                            <h1 style="font-size: 200%; margin-top: 10px; color:#00203FFF; font-family: 'Lobster';"><em>Champions keep playing until they get it right.</em></h1>
+                          </div> -->
+                          <img class="d-block w-100 img-fluid" src="images/slider1.jpeg" alt="Third slide">
+              
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+                  
+                 <div class="container ml-4">
+                     <a name ="home-section"></a>
+                     <div class="row" style="margin: 50px 0px; padding-top: 50px; ">
+                        <div class = "col-12">
+                            <div class = "card card-body bg-light">
+                                <blockquote class = "blockquote">
+                                    <p class = "mb-0"><em>Ever thought of controlling any of your electronic devices with your smartphone?
+                                         How about a robot or any other device? Wouldn't it be cool to control them with your smartphone?</em></p>
+                                    <footer class = "blockquote-footer">
+                                         <!-- <cite title = "Source Title"> intel</cite> -->
+                                    </footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                     </div>
+                     
+                <div class="row align-items-center row-content-main">
+                    <!-- <div class="col-12 col-sm-4 order-sm-last col-md-3">
+                      <h2>Home Automation System?</h2>
+                    </div> -->
+                    <div class="col-12 col-sm order-sm-first col-md">
+                      <div class = "media">
+                        <img src = "images/definition.gif" width = "25%" alt="motherboard" class = "d-flex mr-5 img-fluid img-thumbnail align-self-center">
+                        <div class = "media-body">
+                          <h3 class = "mt-0"><i class="fa fa-cube fa-sm"></i> Aim Of Project</h3>
+                          <p class="d-none d-md-block">
+                            To make a voice controllable mini home automation system which can be used through an android application. The appliances controlled through the system will be RGB LED lights, a fan, etc. The user will be able to mention the RGB value of the color of light.
+                            Remote controlled home automation system provides a most modern solution with smartphones. Moreover, home automation systems in today’s market cost more than Rs. 50,000 so also wanted to make a low budget home automation system.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="row align-items-center row-content-main">
+                    <div class="col-12 col-sm-4 col-md-3">
+                      <h1 style="font-size: 3vw;"> Home Automation Systems?</h1>
+                    </div>
+                    <div class="col-12 col-sm-7 offset-sm-1 col-md-8">
+                      <div class = "media">
+                        <div class = "media-body">
+                          <h3 class = "mt-0"><i class="fa fa-cube fa-sm"></i> Definition <span class = "badge badge-info">NEW!</span></h3>
+                          <p class="d-none d-md-block">    
+                            A home automation system is a technological solution that enables automating the bulk of electronic, electrical and technology-based tasks within a home.
+                            It uses a combination of hardware and software technologies that enable control and management over appliances and devices within a home.
+                            Home automation is also known as domotics, and a home with an automation system is also known as a smart home.
+                          </p>
+                        </div>
+                        <img src="images/home_automation.jpg" width = "40%" alt="Chipset" class="d-flex ml-5 img-fluid img-thumbnail align-self-center">
+                      </div>
+                    </div>
+                  </div>
+
+                 
+                  <a name="requirements"></a>
+                  <div class="row-content"></div>
+                  <div class = "row justify-content-center gpu-type-heading">
+                    <div class = "col-auto"></div>
+                      <h2 class="page-heading">Hardware/ Sensors Required</h2>
+                  </div>
+
+                  <div class = "row ">
+                    <div class = "col-12">
+                        <ul class = "nav nav-tabs nav-justified">
+                            <li class = "nav-item"><a class = "nav-link active" href = "#arduino_uno" role = "tab" data-toggle = "tab">Arduino UNO</a></li>
+                            <li class = "nav-item"><a href = "#bo_wheels" class = "nav-link" role = "tab" data-toggle = "tab">Bread Board</a></li>
+                            <li class = "nav-item"><a class = "nav-link" href = "#stepper_motor" role = "tab" data-toggle = "tab">DC Motor</a></li>
+                            <li class = "nav-item"><a href = "#motor_driver" class = "nav-link" role = "tab" data-toggle = "tab">Resistors</a></li>
+                            <li class = "nav-item"><a href = "#acbulb" class = "nav-link" role = "tab" data-toggle = "tab">AC Bulb</a></li>
+                            <li class = "nav-item"><a href = "#jump_wires" class = "nav-link" role = "tab" data-toggle = "tab">Jump Wires</a></li>
+                            <li class = "nav-item"><a href = "#ultrasonic_module" class = "nav-link" role = "tab" data-toggle = "tab">HC-05</a></li>
+                            <li class = "nav-item"><a href = "#transistors" class = "nav-link" role = "tab" data-toggle = "tab">Transistors</a></li>
+                            <li class = "nav-item"><a href = "#rgbled" class = "nav-link" role = "tab" data-toggle = "tab">RGB Led</a></li>
+                            <li class = "nav-item"><a href = "#led" class = "nav-link" role = "tab" data-toggle = "tab">LED</a></li>
+                            <li class = "nav-item"><a href = "#pir" class = "nav-link" role = "tab" data-toggle = "tab">PIR sensor</a></li>
+                            <li class = "nav-item"><a href = "#relay" class = "nav-link" role = "tab" data-toggle = "tab">Relay Modules</a></li>
+                          </ul>
+                        <div class = "tab-content">
+                            <div class = "tab-pane fade-in show active" role = "tabpanel" id = "arduino_uno">
+                                <div class="media">
+                                    <div class="media-body">
+                                        <h2 class="mt-4">Arduino UNO</h2>
+                                        <p class="d-none d-sm-block">
+                                          The Arduino Uno is an open-source microcontroller board based on the Microchip ATmega328P microcontroller and developed by Arduino.cc.The board is equipped with sets of digital
+                                          and analog input/output (I/O) pins that may be interfaced to various expansion boards (shields) and other circuits.</p>
+                                    </div>
+                                    <img src="images/arduino_uno.jpg" width="20%" alt="early gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                                </div>
+                            </div>
+                            
+                            <div class = "tab-pane fade-in" role = "tabpanel" id = "bo_wheels">
+                            <div class="media">
+                                <img src="images/bread_board.jpg" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                                <div class="media-body">
+                                    <h2 class="text-align-right mt-4">BreadBoard</h2>
+                                    <p class="d-none d-sm-block ">
+                                      A breadboard is a solderless device for temporary prototype with electronics and test circuit designs. Most electronic components in electronic circuits can be interconnected by 
+                                      inserting their leads or terminals into the holes and then making connections through wires where appropriate.</p>
+                                </div>
+                            </div>
+                            </div>
+        
+                            <div class = "tab-pane fade-in" role = "tabpanel" id = "stepper_motor">
+                              <div class="media">
+                                  <div class="media-body">
+                                      <h2 class="mt-4">DC Motor</h2>
+                                      <p class="d-none d-sm-block">
+                                        A DC motor is any of a class of rotary electrical motors that converts direct current electrical energy into 
+                                        mechanical energy. The most common types rely on the forces produced by magnetic fields. Nearly all types of DC 
+                                        motors have some internal mechanism,
+                                         either electromechanical or electronic, to periodically change the direction of current in part of the motor.</p>
+                                  </div>
+                                  <img src="images/motor.jfif" width="20%" alt="early gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                              </div>
+                          </div>
+                          
+                          <div class = "tab-pane fade-in" role = "tabpanel" id = "motor_driver">
+                          <div class="media">
+                              <img src="images/resistors.jpg" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                              <div class="media-body">
+                                  <h2 class="text-align-right mt-4">Resistors</h2>
+                                  <p class="d-none d-sm-block ">
+                                    
+A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. In electronic circuits, resistors are used to reduce current flow, adjust signal levels,
+ to divide voltages, bias active elements, and terminate transmission lines, among other uses.</p>
+                              </div>
+                          </div>
+                          </div>
+      
+                          <div class = "tab-pane fade-in" role = "tabpanel" id = "acbulb">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h2 class="mt-4">AC Bulb</h2>
+                                    <p class="d-none d-sm-block">
+                                      The magnitude and direction of an alternating current changes while that of a direct current remains in the same direction.
+                                      AC household light bulbs are good for household use where almost all electricity is supplied by providers that utilize a AC current. </p>
+                                </div>
+                                <img src="images/acbulb.jfif" width="20%" alt="present gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                            </div>
+                        </div>
+                          
+                          <div class = "tab-pane fade-in" role = "tabpanel" id = "jump_wires">
+                            <div class="media">
+                                <img src="images/jump_wires.jpg" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                                <div class="media-body">
+                                    <h2 class="text-align-right mt-4">Jump Wires</h2>
+                                    <p class="d-none d-sm-block ">
+                                      A jump wire is an electrical wire, or group of them in a cable, with a 
+                                      connector or pin at each end (or sometimes without them – simply "tinned"), which is normally used to interconnect
+                                     the components of a breadboard or other prototype or test circuit, internally or with other equipment or components, without soldering</p>
+                                </div>
+                            </div>
+                            </div>
+        
+
+                            <div class = "tab-pane fade-in" role = "tabpanel" id = "ultrasonic_module">
+                              <div class="media">
+                                  <div class="media-body">
+                                      <h2 class="mt-4">HC-05 Bluetooth Module</h2>
+                                      <p class="d-none d-sm-block">
+                                        HC-05 is a Bluetooth module which is designed for wireless comunication.
+                                         This module can be used in a master or slave configuration.
+                                         Bluetooth serial modules allow all serial enabled devices to communicate with each other using Bluetooth.</p>
+                                  </div>
+                                  <img src="images/HC-05-Bluetooth-Module-Pinout.png" width="20%" alt="present gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                              </div>
+                          </div>
+
+                          <div class = "tab-pane fade-in" role = "tabpanel" id = "transistors">
+                            <div class="media">
+                                <img src="images/transistors.jfif" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                                <div class="media-body">
+                                    <h2 class="text-align-right mt-4">Transistors</h2>
+                                    <p class="d-none d-sm-block ">
+                                      A transistor is a semiconductor device used to amplify or switch electronic signals and electrical power.
+                                       It is composed of semiconductor material usually with at least three terminals for connection to an external circuit.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class = "tab-pane fade-in" role = "tabpanel" id = "rgbled">
+                              <div class="media">
+                                  <div class="media-body">
+                                      <h2 class="mt-4">RGB LED</h2>
+                                      <p class="d-none d-sm-block">
+                                        An RGB LED is a combination of 3 LEDs in just one package:
+
+                                        <br>1x Red LED
+                                        <br>1x Green LED
+                                        <br>1x Blue LED
+                                      <br>We can produce almost any color by combining those three colors.</p>
+                                  </div>
+                                  <img src="images/rgb.jfif" width="20%" alt="present gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                              </div>
+                          </div>
+
+                          <div class = "tab-pane fade-in" role = "tabpanel" id = "led">
+                            <div class="media">
+                                <img src="images/led.jfif" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                                <div class="media-body">
+                                    <h2 class="text-align-right mt-4">LED</h2>
+                                    <p class="d-none d-sm-block ">
+                                      A light-emitting diode (LED) is a semiconductor light source that emits light when current flows through it.
+                                       Electrons in the semiconductor recombine with electron holes, releasing energy in the form of photons.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class = "tab-pane fade-in" role = "tabpanel" id = "pir">
+                              <div class="media">
+                                  <div class="media-body">
+                                      <h2 class="mt-4">PIR sensor</h2>
+                                      <p class="d-none d-sm-block">
+                                        The PIR sensor itself has two slots in it, each slot is made of a special material that is sensitive to IR.
+                                        The lens used here is not really doing much and so we see that the two slots can 'see' out past some distance </p>
+                                  </div>
+                                  <img src="images/pirsensor.jfif" width="20%" alt="present gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                              </div>
+                          </div>
+
+                         
+                      <div class = "tab-pane fade-in" role = "tabpanel" id = "relay">
+                        <div class="media">
+                            <img src="images/relay.jpeg" width="20%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                            <div class="media-body">
+                                <h2 class="text-align-right mt-4">Relay modules</h2>
+                                <p class="d-none d-sm-block ">
+                                  Relays control one electrical circuit by opening and closing contacts in another circuit.
+                                  Relays are generally used to switch smaller currents in a control circuit and do not usually control power 
+                                  consuming devices except for small motors and Solenoids that draw low amps.</p>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+               </div>
+                  </div>
+
+               <div class="row-content">
+
+               </div>
+
+               
+               <div class = "row justify-content-center  gpu-type-heading">
+                <div class = "col-auto"></div>
+                  <h2 class="page-heading">Software Requirements</h2>
+              </div>
+
+              <div class = "row">
+                <div class = "col-12">
+                    <ul class = "nav nav-tabs nav-justified">
+                        <li class = "nav-item"><a class = "nav-link active" href = "#compiler" role = "tab" data-toggle = "tab">Arduino Compiler</a></li>
+                        <li class = "nav-item"><a href = "#inventor" class = "nav-link" role = "tab" data-toggle = "tab">MIT App Inventor</a></li>
+                      </ul>
+                    <div class = "tab-content">
+                        <div class = "tab-pane fade-in show active" role = "tabpanel" id = "compiler">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h2 class="mt-4">Arduino Compiler</h2>
+                                    <p class="d-none d-sm-block">
+                                      Arduino is a rich Integrated Development Editor that comes packed with numerous features that allow users to write,
+                                      compile, and upload their code. With this 
+                                      IDE you can search which board you are using and which libraries you want to link and the program will do the rest.
+                                      The open-source Arduino Software (IDE) makes it easy to write code and upload it to the board.
+                                       This software can be used with any Arduino board.</p>
+                                </div>
+                                <img src="images/arduino_compiler.png" width="30%" alt="early gpu" class="d-flex ml-4 img-fluid img-thumbnail align-self-center">
+                            </div>
+                        </div>
+                        
+                        <div class = "tab-pane fade-in" role = "tabpanel" id = "inventor">
+                        <div class="media">
+                            <img src="images/app_inventor.png" width="40%" alt="mid gpu" class="d-flex mr-4 img-fluid img-thumbnail align-self-center">
+                            <div class="media-body">
+                                <h2 class="text-align-right mt-4">MIT App Inventor</h2>
+                                <p class="d-none d-sm-block ">
+                                  MIT App Inventor is a web application integrated development environment originally provided by Google.
+                                  It uses a graphical user interface (GUI) very similar to the programming languages Scratch (programming language)
+                                   and the StarLogo,
+                                   which allows users to drag and drop visual objects to create an application that can run on android devices,</p>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <a name="description"></a>
+
+               <div class="row-content">
+
+               </div>
+
+               <div class="row row-content justify-content-center">
+                 <div class="col-12">
+                   <h2 class="page-heading" style="margin-left: 5%;">Description Of Project</h2>
+                 </div>
+                 <div class="col-9 offset-1">
+        
+                   <iframe width="800" height="540" src="https://www.youtube.com/embed/cTLgwcxSWJM"></iframe>
+                 </div>
+                 <div class="col-12">
+                   <p>
+                    Arduino based home automation using Bluetooth project helps the user to control any electronic device using
+                     Device Control app on their Android Smartphone. The android app sends commands to the controller — Arduino, 
+                     through wireless communication, namely, Bluetooth. The Arduino is connected to the main PCB which has five 
+                     relays as shown in the block diagram.
+                     These relays can be connected to different electronic devices like lights, television, fan, etc.
+                   </p>
+                 </div>
+               </div>
+               <div class="row-content">
+
+               </div>
+               <a name="flow"></a>
+
+               <div class="row row-content-main justify-content-center">
+                <div class="col-12">
+                  <h2 class="page-heading">FLOW DIAGRAM</h2>
+                </div>
+                <div class="col-12 col-md-11 offset-sm-1">
+                  <img class="img-thumbnail img-fluid"src="images/flow_diagram.jpeg" alt="FLOW Diagram" width="850vw" ><!--video link to be embedded-->
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-12 col-md-11 offset-sm-1">
+                  <img class="img-thumbnail img-fluid"src="images/flow-diagram-2.jpg" alt="FLOW Diagram" width="90%" ><!--video link to be embedded-->
+                </div>
+              </div>
+
+              <a name="program"></a>
+              <div class="row-content"></div>
+              <div class="row row-content justify-content-center">
+                <div class="col-12">
+                  <h2 class="page-heading">PROGRAM/ CODE</h2>
+                  
+                </div>
+                </div>
+              <div class="row code">
+                <div class="col-12">
+                <code>
+                 <div class="mycode">
+                  <span class="io">#include</span>< SoftwareSerial ><br><span class = 'keyword'>BT.available</span> fine redPin 3 <br><span class="io">#define</span> greenPin 5 <br><span class="io">#define</span> bluePin 6<br><span class="io">#define</span> motorPin 9 <br><span class="io">#define</span> bulbPin 10 <br><span class="io">#define</span> sensorPin 8 <br><span class="io">#define</span> relayPin 11 <br><span class="io">#define</span> sensorLe<span class = 'keyword'>digitalWrite</span>tup() { <span class = 'keyword'>Serial.begin</span>(9600);<br> <span class = 'keyword'>BT.begin</span>(9600);<br> <span class = 'keyword'>pinMode</span>(redPin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(greenPin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(bluePin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(motorPin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(bulbPin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(sensorPin, INPUT);<br> <span class = 'keyword'>pinMode</span>(relayPin, OUTPUT);<br> <span class = 'keyword'>pinMode</span>(sensorLed, OUTPUT);<br> deviceControl(220,60,190,0,215,0);<br> } //creating variables globally <span class = 'keyword'>int</span> redInt = 220;<br> <span class = 'keyword'>int</span> greenInt = 60;<br> <span class = 'keyword'>int</span> blueInt = 190;<br> <span class = 'keyword'>int</span> motorInt = 165;<br> <span class = 'keyword'>int</span> bulbInt = 215;<br> <span class = 'keyword'>int</span> relayInt = 0;<br> String voiceCommand = "empty";<br> void loop() { if(!digitalRead(sensorPin)) <span class = 'keyword'>digitalWrite</span>(sensorLed, HIGH);<br> else <span class = 'keyword'>digitalWrite</span>(sensorLed, LOW);<br> <span class = 'keyword'>int</span> i = 0;<br> <span class = 'keyword'>int</span> arr[6];<br> <span class = 'function'>for</span>(<span class = 'keyword'>int</span> x = 0;<br>x<=5;<br>x++) arr[x] = 0;<br> delay(5);<br>
+                  if(<span class = 'keyword'>BT.available</span>()){ while(i<=5){ if(<span class = 'keyword'>BT.available</span>()){ arr[i] = <span class = 'keyword'>BT.read</span>();<br> i++;<br> } } <span class = 'keyword'>Serial.println</span>("input taken");<br> redInt = arr[0];<br> greenInt = arr[1];<br> blueInt = arr[2];<br> motorInt = arr[3];<br> bulbInt = arr[4];<br> relayInt = arr[5];<br> voiceCommand = <span class = 'keyword'>BT.readString</span>();<br> redInt = <span class = 'io'>cinstrain</span>(redInt, 0, 255);<br> greenInt = <span class = 'io'>cinstrain</span>(greenInt, 0, 255);<br> blueInt = <span class = 'io'>cinstrain</span>(blueInt, 0, 255);<br> motorInt = <span class = 'io'>cinstrain</span>(motorInt, 0, 255);<br> bulbInt = <span class = 'io'>cinstrain</span>(bulbInt, 0, 255);<br> relayInt = <span class = 'io'>cinstrain</span>(relayInt,0,1);<br> voiceCommand.toLowerCase();<br> if(voiceCommand != "empty") { if(voiceCommand == "rgb off" || voiceCommand == "rgb of") { redInt = 0;<br> greenInt = 0;<br> blueInt = 0;<br> } if(voiceCommand == "rgb on") { redInt = 220;<br> greenInt = 60;<br> blueInt = 190;<br> } if(voiceCommand == "bulb off" || voiceCommand == "bulb of") bulbInt = 0;<br> if(voiceCommand == "bulb on") bulbInt = 215;<br>
+                  if(voiceCommand == "fan off" || voiceCommand == "fan of") motorInt = 0;<br> if(voiceCommand == "fan on") motorInt = 165;<br> if(voiceCommand == "ac bulb off" || voiceCommand == "ac bulb of") relayInt = 0;<br> if(voiceCommand == "ac bulb on") relayInt = 1;<br> if(voiceCommand == "all on"){ redInt = 220;<br> greenInt = 60;<br> blueInt = 190;<br> motorInt = 165;<br> bulbInt = 215;<br> relayInt = 1;<br> } if(voiceCommand == "all off" || voiceCommand == "all of"){ redInt = 0;<br> blueInt = 0;<br> greenInt = 0;<br> motorInt = 0;<br> bulbInt = 0;<br> relayInt = 0;<br> } }
+                  <span class = 'keyword'>Serial.print</span>("R : ");<br> <span class = 'keyword'>Serial.println</span>(redInt);<br> <span class = 'keyword'>Serial.print</span>("G : ");<br> <span class = 'keyword'>Serial.println</span>(greenInt);<br> <span class = 'keyword'>Serial.print</span>("B : ");<br> <span class = 'keyword'>Serial.println</span>(blueInt);<br> <span class = 'keyword'>Serial.print</span>("Motor : ");<br> <span class = 'keyword'>Serial.println</span>(motorInt);<br> <span class = 'keyword'>Serial.print</span>("Bulb : ");<br> <span class = 'keyword'>Serial.println</span>(bulbInt);<br> <span class = 'keyword'>Serial.print</span>("Relay : ");<br> <span class = 'keyword'>Serial.println</span>(relayInt);<br> <span class = 'keyword'>Serial.print</span>("Command : ");<br> <span class = 'keyword'>Serial.println</span>(voiceCommand);<br> <span class = 'keyword'>Serial.println</span>("------------------------");<br>
+                  voiceCommand = "empty";<br> deviceControl(redInt, greenInt, blueInt, motorInt, bulbInt, relayInt);<br> } } void deviceControl(<span class = 'keyword'>int</span> red, <span class = 'keyword'>int</span> green, <span class = 'keyword'>int</span> blue, <span class = 'keyword'>int</span> motor, <span class = 'keyword'>int</span> bulb, <span class = 'keyword'>int</span> relay) { <span class = 'keyword'>Serial.println</span>("writing on pins");<br> <span class = 'keyword'>Serial.print</span>("red : ");<br> <span class = 'keyword'>Serial.println</span>(red);<br> <span class = 'keyword'>Serial.print</span>("green : ");<br> <span class = 'keyword'>Serial.println</span>(green);<br> <span class = 'keyword'>Serial.print</span>("blue : ");<br> <span class = 'keyword'>Serial.println</span>(blue);<br> analogWrite(redPin, 255 - red);<br> analogWrite(greenPin, 255 - green);<br> analogWrite(bluePin, 255 - blue);<br> analogWrite(bulbPin, bulb);<br> analogWrite(motorPin, motor);<br> <span class = 'keyword'>digitalWrite</span>(relayPin, relay);<br> }
+                </div>
+                </code>
+                </div>
+              </div>
+              <div class="row-content">
+
+              </div>
+              <div class="container">
+                <a name="prototype"></a>
+                <div class="row row-content justify-content-center">
+                    <div class="col-12">
+                      <h2 class="page-heading">MOBILE APP</h2>
+                    </div>
+                </div>
+                <div class="row ">   
+                    <div class="grid col-12">
+                      <img src="images/app_1 (1).jpeg">
+                      <img src="images/app_1 (2).jpeg">
+                      <img src="images/app_1 (3).jpeg">
+                    <!-- </div> -->
+                    <!-- <div class="grid col-12"> -->
+                      <img src="images/app_1 (4).jpeg">
+                      <img src="images/app_1 (5).jpeg">
+                    </div>
+                  </div>
+              </div>
+              
+
+              <div class="container">
+                <a name="circuit"></a>
+                <div class="row row-content justify-content-center">
+                    <div class="col-12">
+                      <h2 class="page-heading">CIRCUIT</h2>
+                    </div>
+                </div>
+                <div class="row row-content">   
+                    <div class="col-11 offset-1">
+                      <img src="images/circuit.jpeg" width="90%">
+                      
+                    </div>
+                  </div>
+              </div>
+              
+               
+</div>
+                <footer class = "footer">
+                  <div class = "container">
+                   
+                    <div class = "row">
+                      <div class = "col-12 col-sm-auto">
+                        <p>© Copyright 2020 Aditya Anand | Ashutosh Jaiswal | Jai Kumar | Karan Wali | Aman Rajput </p>
+                      </div>
+                      
+                      <div class = "col-12 col-sm-4 align-self-center">
+                        <div class = "text-center">
+                          <a class = "btn btn-social-icon btn-google" href="#"><i class = "fa fa-google-plus fa-lg"></i></a>
+                          <a class = "btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                          <a class = "btn btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                          <a class = "btn btn-social-icon btn-twitter" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                          <a class = "btn btn-social-icon btn-google" href="#"><i class="fa fa-youtube fa-lg"></i></a>
+                          <a href="mailto:anand.aditya0803@gmail.com"><img class="img-fluid" src="images/email.svg" alt="Email" width="36px"></a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-auto">
+                      </div>
+                    </div>
+                  </div>
+                </footer>
+
+            </div>
+        </div>
+    
+</div>
+
+     
+       
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script> 
+  // Select dom items 
+  const menuBtn = 
+    document.querySelector(".menu-btn"); 
+
+  const menu = 
+    document.querySelector(".menu"); 
+
+  const menuNav = 
+    document.querySelector(".menu-nav"); 
+
+  const navItems = 
+    document.querySelectorAll(".nav-item"); 
+
+  // Set the initial state of the menu 
+  let showMenu = false; 
+
+  menuBtn.addEventListener("click", toggleMenu); 
+
+  function toggleMenu() { 
+    if (!showMenu) { 
+      menuBtn.classList.add("close"); 
+      menu.classList.add("show"); 
+      menuNav.classList.add("show"); 
+      navItems.forEach((item) => 
+        item.classList.add("show")); 
+
+      // Reset the menu state 
+      showMenu = true; 
+    } else { 
+      menuBtn.classList.remove("close"); 
+      menu.classList.remove("show"); 
+      menuNav.classList.remove("show"); 
+      navItems.forEach((item) => 
+        item.classList.remove("show")); 
+
+      // Reset the menu state 
+      showMenu = false; 
+    } 
+  } 
+</script> 
+<script>
+  const lightbox = document.createElement('div')
+lightbox.id = 'lightbox'
+document.body.appendChild(lightbox)
+
+const images = document.querySelectorAll('img')
+images.forEach(image => {
+  image.addEventListener('click', e => {
+    lightbox.classList.add('active')
+    const img = document.createElement('img')
+    img.src = image.src
+    while (lightbox.firstChild) {
+      lightbox.removeChild(lightbox.firstChild)
+    }
+    lightbox.appendChild(img)
+  })
+})
+
+lightbox.addEventListener('click', e => {
+  if (e.target !== e.currentTarget) return
+  lightbox.classList.remove('active')
+})
+
+</script>
+
+
+</body>
+</html>
